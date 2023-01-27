@@ -1,0 +1,2 @@
+INFO     root:core.py:16 Capitalised Value: SHE SELLS SEA SHELLS ON THE SEA SHORE
+ERROR    root:core.py:19 Incorrect Input Value!!
