@@ -1,2 +1,3 @@
-INFO     root:core.py:16 Capitalised Value: SHE SELLS SEA SHELLS ON THE SEA SHORE
-ERROR    root:core.py:19 Incorrect Input Value!!
+INFO     root:test_capitalise.py:37 Reading Environment Variables...
+INFO     root:test_capitalise.py:38 dev
+INFO     root:test_capitalise.py:39 12345

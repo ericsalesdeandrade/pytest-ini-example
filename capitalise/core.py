@@ -1,3 +1,5 @@
+import time
+
 import logging
 
 # Set Logging
@@ -12,6 +14,7 @@ def capitalise(value: str) -> str:
     """
     if isinstance(value, str):
         logging.debug(f"Input Value: {value}")
+        # time.sleep(10)  # ADD Delay - Comment if not needed
         cap_value = value.upper()
         logging.info(f"Capitalised Value: {cap_value}")
         return cap_value

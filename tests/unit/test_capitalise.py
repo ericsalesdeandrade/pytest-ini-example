@@ -1,6 +1,10 @@
 import os
 import pytest
+import logging
 from capitalise.core import capitalise
+
+# Set Logging
+logging.basicConfig(level=logging.BASIC_FORMAT)
 
 
 def test_capitalise() -> None:
@@ -30,5 +34,8 @@ def test_load_env_vars() -> None:
     """
     environment = os.environ.get("ENVIRONMENT")
     account = os.environ.get("ACCOUNT")
+    logging.info("Reading Environment Variables...")
+    logging.info(environment)
+    logging.info(account)
     assert environment == "dev"
     assert account == "12345"
