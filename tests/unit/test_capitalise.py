@@ -6,7 +6,7 @@ from capitalise.core import capitalise
 # Set Logging
 logging.basicConfig(level=logging.BASIC_FORMAT)
 
-
+@pytest.mark.core
 def test_capitalise() -> None:
     """
     Test capitalise function

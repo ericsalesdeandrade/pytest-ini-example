@@ -1,9 +1,9 @@
 # Pytest INI Example
 
-[//]: # (This repo contains the sample code for the article - [3 Ways To Easily Test Your Python Async Functions With Pytest Asyncio]&#40;https://pytest-with-eric.com/pytest-advanced/pytest-asyncio/&#41;)
+This repo contains the sample code for the article - [What Is `pytest.ini` And How To Save Time Using Pytest Config](https://pytest-with-eric.com/pytest-best-practices/pytest-ini/)
 
 # Requirements
-* Python (3.10.6)
+* Python (3.10.9)
 
 Please install the dependencies via the `requirements.txt` file using 
 ```commandline

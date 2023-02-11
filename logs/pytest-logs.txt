@@ -1,3 +1,6 @@
+DEBUG    root:core.py:16 Input Value: She sells sea shells on the sea shore
+INFO     root:core.py:19 Capitalised Value: SHE SELLS SEA SHELLS ON THE SEA SHORE
+ERROR    root:core.py:22 Incorrect Input Value!!
 INFO     root:test_capitalise.py:37 Reading Environment Variables...
 INFO     root:test_capitalise.py:38 dev
 INFO     root:test_capitalise.py:39 12345
